@@ -3,3 +3,94 @@
   margin: 0;
   box-sizing: border-box;
 }
+nav {
+  background-color: rgba(85, 133, 110, 1);
+}
+.navbar .contain {
+  padding: 10px 0;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.navbar .contain .Brand-name {
+  background-color: white;
+  width: 135px;
+  height: 45px;
+  border-radius: 16px 16px 0 0;
+}
+.navbar .contain .Brand-name img {
+  width: 70px;
+  height: 30px;
+  display: flex;
+  margin: 10px auto;
+}
+.navbar .contain ul {
+  width: 50%;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .contain ul li {
+  list-style: none;
+}
+.navbar .contain ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.navbar .contain ul li a::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 4px;
+  background-color: black;
+  left: 0;
+  width: 0;
+  bottom: 0;
+}
+.navbar .contain ul li a:hover {
+  color: black;
+}
+
+.navbar .contain ul li a.active {
+  color: #000;
+  transition: all 0.5s;
+}
+.navbar .contain ul li a:hover::after {
+  width: 100%;
+  transition: all 0.5s;
+}
+.btn {
+  background: #fff;
+  width: 70px;
+  height: 43px;
+  border-radius: 16px;
+  font-size: 24px;
+  position: relative;
+  padding: 0 5px 0 0;
+  margin: auto 0 !important;
+}
+.btn a {
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  margin-left: -10px;
+  margin-top: auto;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 18px solid #000;
+  transform: rotate(180deg);
+  margin: 10px 5px;
+}
