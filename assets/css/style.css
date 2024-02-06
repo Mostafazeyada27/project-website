@@ -90,7 +90,7 @@ nav {
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-bottom: 18px solid #000;
+  border-bottom: 12px solid #000;
   transform: rotate(180deg);
-  margin: 10px 5px;
+  margin: 14px 4px;
 }
