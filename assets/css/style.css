@@ -94,5 +94,18 @@ nav {
   transform: rotate(180deg);
   margin: 14px 4px;
 }
-
- 
+main header{
+    padding-top: 100px;
+}
+.contain .text h1{
+    color: #55856E;
+}
+.contain .text p{
+    color:  linear-gradient(0deg, rgba(0, 0, 0, 0.8));
+}
+main header .container .contain{
+    display: flex;
+}
+.contain .text .link  {
+    display: flex;
+}
