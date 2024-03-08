@@ -3,16 +3,18 @@
   margin: 0;
   box-sizing: border-box;
 }
+.flex-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 nav {
   background-color: rgba(85, 133, 110, 1);
 }
 .navbar .contain {
   padding: 10px 0;
   width: 100% !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   justify-content: space-between;
 }
 .navbar .contain .Brand-name {
@@ -41,8 +43,7 @@ nav {
   position: relative;
   text-decoration: none;
   color: #fff;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 22px;
 }
 .navbar .contain ul li a::after {
   position: absolute;
@@ -94,18 +95,76 @@ nav {
   transform: rotate(180deg);
   margin: 14px 4px;
 }
-main header{
-    padding-top: 100px;
+
+/* Header style  */
+main header {
+  padding-top: 100px;
+  padding: 150px 0;
+  border: 2px solid yellow;
 }
-.contain .text h1{
-    color: #55856E;
+.contain .text {
+  display: inline-block;
+  width: 600px;
 }
-.contain .text p{
-    color:  linear-gradient(0deg, rgba(0, 0, 0, 0.8));
+.contain .text h1 {
+  color: #55856e;
+  font-style: italic;
+  font-weight: 700;
 }
-main header .container .contain{
-    display: flex;
+.contain .text p {
+  display:block;
+  width: 460px;
+  padding: 10px 0;
+  text-align: left;
+  color: linear-gradient(0deg, rgba(0, 0, 0, 0.8));
 }
-.contain .text .link  {
-    display: flex;
+.contain .text span {
+  font-weight: 900;
+}
+main header .container .contain {
+  display: flex;
+}
+.contain .text .link {
+ margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contain .text .link a  {
+ width: 180px;
+ height: 50px;
+}
+
+/* service style */
+
+.services .heading h1 {
+  border: 2px solid black;
+  width: 250px;
+}
+.services .service .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.services .service .row {
+  border: 2px solid brown;
+}
+.services .service .row .col {
+  display: flex;
+  border: 2px solid red;
+  border-radius: 25px 25px;
+  margin-top: 30px;
+}
+/* .services .service .row .serv {
+  border: 2px solid black;
+} */
+.services .service .row .serv h2 {
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 900;
+  width: 300px;
+}
+.services .service .img-serv img {
+  width: 150px;
+  display: flex;
+  margin-top: 20%;
 }
