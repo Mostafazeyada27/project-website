@@ -269,6 +269,25 @@
             <p>We are always here to help what you need.</p>
 
             <div class="content">
+              <form name="myForm" onsubmit="return validateForm()">
+                  <div class="form">
+                    <img src="assets/image/icon/Profile.svg" alt="#"  />
+                    <input type="text" id="name" name="name" placeholder="name" />
+                    <span id="nameError" class="error"></span>
+                  </div>
+                  <div class="form">
+                      <img src="assets/image/icon/Message.svg" alt="#" />
+                      <input type="email" id="email" name="email" placeholder="Email" />
+                      <span id="emailError" class="error"></span>
+                  </div>
+                  <div class="form">
+                    <img src="assets/image/icon/Calling.svg" alt="#" />
+                    <input type="text" id="phone" name="phone" placeholder="phone" />
+                    <span id="phoneError" class="error"></span>
+                  </div>
+                  <input id="submit" type="submit" value="Send">
+                </form>
+              <!--
               <div class="form">
                 <img src="assets/image/icon/Profile.svg" alt="#"  />
                 <input type="text" placeholder="name" />
@@ -288,7 +307,7 @@
                 <a href="#">
                   <span> send </span>
                 </a>
-              </div>
+              </div>-->
             </div>
 
           <div class="example">
