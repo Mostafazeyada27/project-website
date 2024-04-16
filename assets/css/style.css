@@ -205,14 +205,15 @@ main header .container .contain {
 
 /* FAQ style */
 .FAQ {
-  margin: 50px 0;
+  margin: 120px 0px;
 }
 .FAQ .heading {
   width: 250px;
   height: 70px;
   border-radius: 25px;
   display: flex;
-  margin: 0 auto;
+  margin: 0px auto;
+
   box-shadow: 0px 0px 12px 2px rgba(85, 133, 110, 1) inset;
   color: rgba(85, 133, 110, 1);
   text-align: center;
@@ -221,7 +222,7 @@ main header .container .contain {
   font-weight: 700;
 }
 .FAQ .content {
-  margin: 20px auto;
+  margin: 50px auto;
 }
 .FAQ .content .ques button {
   display: flex;
@@ -266,6 +267,7 @@ main header .container .contain {
 /* Download style */
 
 .download .contain {
+  margin: 50px 0;
   background-color: rgb(113, 167, 143);
   display: flex;
   height: 550px;
@@ -329,11 +331,18 @@ main header .container .contain {
 .contact .content .form {
   display: flex;
   margin: 20px auto;
-
   border-radius: 20px;
   width: 470px;
   height: 60px;
   background-color: rgba(248, 248, 248, 1);
+}
+.contact .content .form input {
+  background-color: rgba(248, 248, 248, 1);
+  width: 100%;
+  border-radius: 20px;
+}
+.contact .content ::placeholder {
+  font-size: 18px;
 }
 .contact .content .form img {
   margin: auto 0;
@@ -344,7 +353,7 @@ main header .container .contain {
 .contact .content .form input {
   border: none;
 }
-.contact .content .btn {
+.contact .content #submit {
   margin: 20px 0;
   border: 2px solid black;
   border-radius: 20px;
@@ -355,7 +364,7 @@ main header .container .contain {
   z-index: 999;
 }
 
-.contact .content .btn span {
+.contact .content #submit {
   color: #fff;
   font-size: 20px;
   font-weight: 500;
