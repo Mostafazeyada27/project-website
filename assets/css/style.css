@@ -137,7 +137,6 @@ main header .container .contain {
   height: 50px;
 }
 
-
 /* service style */
 
 .services .heading h1 {
@@ -241,9 +240,9 @@ main header .container .contain {
   border: 2px solid black;
   border-radius: 25px 25px;
   width: 850px;
-  height: 235px;
+  height: 260px;
   margin: 30px auto;
-  align-content: center;
+  /* align-content: center; */
   display: none;
 }
 
@@ -255,15 +254,21 @@ main header .container .contain {
 }
 .FAQ .content .answer .cont p {
   display: flex;
-  align-items: center;
   font-size: 30px;
   font-weight: 400;
+}
+.FAQ .content .answer3 .cont p {
+  margin-top: 50px;
 }
 .FAQ .content .answer h6 {
   font-size: 30px;
   display: flex;
   text-align: center;
   font-weight: 400;
+}
+.FAQ .content .spacial h6 {
+  text-align: left;
+  margin-left: 50px;
 }
 /* Download style */
 
